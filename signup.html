@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Front End Design</title>
+	<meta charset="utf-8">
+	<meta name="Front end web developer" content="complete web design">
+	<meta name="keywords" content="CSS,HTML,Front End">
+	<meta name="author" content="Priyanka">
+	<link rel="icon" href="pictures/logs.png">
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@700&family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="pics/starbuckss.png" alt="logo">
+				<input type="text" name="search" class="mysearchbar" size="20" placeholder="search">
+				<input type="submit" value="search" size="2.5" class="mysearchbutton">
+				<ul class="mymenu">
+					<li class="drop">
+						<a href="javascript:void(0)">Menu</a>
+						<div class="dropcontent">
+							<a href="blog.html">blog</a>
+							<a href="contact.html">contact</a>
+							<a href="login.html">login</a>
+							<a href="media.html">media</a>
+							<a href="about.html">about</a>
+							<a href="signup.html">signup</a>
+						</div>
+					</li>
+			        <li><a href="blog.html">blog</a></li>
+					<li><a href="creator.html">Creator</li>
+					<li><a href="contact.html">contact</a></li>
+					<li><a href="login.html">login</a></li>
+					<li><a href="media.html">media</a></li>
+					<li><a href="signup.html" class="active">signup</a></li>
+					<li><a href="about.html">about</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="site-container">
+		<div class="signup-header">
+			<h1>Signup</h1>
+		</div>
+		<div id="register" class="regform">
+			<form id="reg" action="login.html" method="POST">
+				<h2>Already a part of our family? <a href="login.html">Login</a></h2>
+				<p>
+					<label for="firstname" class="fname">First Name</label>
+				   <input type="text" name="firstname" placeholder="Ex:Enter firstname" id="name" required="required">
+				</p>
+				<p>
+				   <label for="lastname" class="lname">Last Name</label>
+				   <input type="text" name="lastname" placeholder="Ex: Enter lastname" id="name" required="required">
+				</p>
+				<p>
+					<label for="emailsignup" class="mail">Your Email</label>
+				   <input type="email" name="emailsignup" placeholder="example2024@gmail.com" id="mail" required="required">
+				</p>
+				<p>
+					<label for="passwordsignup" class="passwd">Password</label>
+				   <input type="password" name="passwordsignup" placeholder="******" id="passwd" required="required" min="6">
+				</p>
+				<p>
+					<label for="confirmpassword" class="confirm">Confirm</label>
+				   <input type="password" name="confirmpassword" placeholder="******" id="confirm" required="required" min="6">
+				</p>
+				<p>
+					<label for="country">Country</label>
+					<select id="country" name="country">
+						<option value="India">India</option>
+						<option value="USA">USA</option>
+						<option value="Germany">Germany</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="SWitzerland">Switzerland</option>
+						
+					</select>
+					
+				</p>
+				<p>
+					<label for="age" class="birth">Birth Date</label>
+				   <input type="date" name="DOB" required="required">
+				</p>
+				<p>
+					<label for="course" class="learn">Courses:</label>
+					<input type="checkbox" name="course1" value="Java">Java
+					<input type="checkbox" name="course2" value="Python">Python
+					<input type="checkbox" name="course3" value="Arduino">Arduino
+				</p>
+				<p>
+					<label for="sex" class="gender">Gender:</label>
+					<input type="radio" name="sex" value="female">Female
+					<input type="radio" name="sex" value="male">Male
+					<input type="radio" name="sex" value="others">Others
+				</p>
+				<p class="signup-button">
+					<input type="submit" value="Sign Up">
+					
+				</p>
+				
+			</form>
+			
+		</div>
+		
+	</div>
+	<footer>
+		<div class="bottom-site">
+			<a href="https://www.facebook.com/Starbucks/" class="footer-link">Facebook</a>
+			<a href="https://www.instagram.com/starbucks/?hl=en" class="footer-link">Instagram</a>
+			<a href="https://www.starbucks.in/dashboard" class="footer-link">Starbucks</a>
+			<p class="copyright">&copy;2023 Priyanka@Starbucks</p>
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Front End Design</title>
+	<meta charset="utf-8">
+	<meta name="Front end web developer" content="complete web design">
+	<meta name="keywords" content="CSS,HTML,Front End">
+	<meta name="author" content="Priyanka">
+	<link rel="icon" href="pictures/logs.png">
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	<link rel="stylesheet" type="text/css" href="lightbox.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/cycle2.js"></script>
+	<script type="text/javascript" src="js/lightbox.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@700&family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="pics/starbuckss.png" alt="logo">
+				<input type="text" name="search" class="mysearchbar" size="20" placeholder="search">
+				<input type="submit" value="search" size="2.5" class="mysearchbutton">
+				<ul class="mymenu">
+					<li class="drop">
+						<a href="javascript:void(0)">Menu</a>
+						<div class="dropcontent">
+							<a href="blog.html">blog</a>
+							<a href="contact.html">contact</a>
+							<a href="login.html">login</a>
+							<a href="media.html">media</a>
+							<a href="about.html">about</a>
+							<a href="signup.html">signup</a>
+						</div>
+					</li>
+					<li><a href="blog.html">blog</a></li>
+				    <li><a href="creator.html">Creator</li>
+					<li><a href="contact.html">contact</a></li>
+					<li><a href="login.html">login</a></li>
+					<li><a href="media.html" class="active">media</a></li>
+					<li><a href="signup.html">signup</a></li>
+					<li><a href="about.html">about</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="site-container">
+		<div class="media-header">
+			<h1>OUR COMPANY</h1>
+			<h2>OUR HERITAGE</h2>
+		</div>
+		<!--slideshow-->
+		<div class="media-container">
+			<div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+
+				<span class="cycle-prev"><img src="pictures/previouss.png"></span>
+				<span class="cycle-next"><img src="pictures/aduthu.png"></span>
+				<span class="cycle-pager"></span>
+				<div class="slide">
+				<img src="pictures/picc0.png" alt="pic0">
+			</div>
+			<div class="slide">
+				<img src="pictures/ppiicc1.png" alt="pic1">
+			</div>
+			<div class="slide">
+				<img src="pictures/ppiicc3.png" alt="pic3">
+			</div>
+			<div class="slide">
+				<img src="pictures/ppiicc2.png" alt="pic2">
+			</div>
+			<div class="slide">
+				<img src="pictures/ppiicc4.png" alt="pic4">
+			</div>
+			</div>
+			<!--photogallery2-->
+			<div class="history">
+				<h1>STARBUCKS SINCE AGES!</h1>
+				<div class="thumbnails">
+					<a href="pictures/1971.png" data-lightbox="gallery" data-title="1971 logo"><img src="pictures/1971thumb.png"></a>	
+					<a href="pictures/1987p.png" data-lightbox="gallery" data-title="1987 logo"><img src="pictures/1987pthumb.png"></a>
+					<a href="pictures/1992p.png" data-lightbox="gallery" data-title="1992 logo"><img src="pictures/1992pthumb.png"></a>
+					<a href="pictures/2kss.png" data-lightbox="gallery" data-title="2000 logo"><img src="pictures/2ks.png"></a>
+					<a href="pictures/19k71p.png" data-lightbox="gallery" data-title="1971"><img src="pictures/19k71pthumb.png"></a>
+					<a href="pictures/19k87p.png" data-lightbox="gallery" data-title="1987"><img src="pictures/19k87pthumb.png"></a>
+					<a href="pictures/19k92p.png" data-lightbox="gallery" data-title="1992"><img src="pictures/19k92p.png"></a>
+					<a href="pictures/2kp.png" data-lightbox="gallery" data-title="2000"><img src="pictures/2kpthumb.png"></a>
+				</div>
+			</div>
+			<div class="embedded-videos">
+				<h1>Commericals</h1>
+				 <div class="watch">
+				 	<video src="videos/SBvid.mp4" controls>
+				 		Your browser doesn't support these type of videos!
+				 	</video>
+				 </div>
+			<!--</div>
+			<div class="embedded-audios">
+			<h1>audios</h1>
+			<div class="audio">
+				<img src="audios/audio.jpg" alt="audio" class="imgaudio">
+				<audio controls class="mp3">
+					<source src="audios/Jingle-Bells.mp3">	
+				</audio>			
+			</div>				
+			</div>-->
+			<div class="gallery2">
+				<h1>More Commercials!</h1>
+				<div class="picthumb">
+					<img onmouseover="preview.src=sb1.src" name="sb1" src="pictures/sb1.png" alt="sb1">
+					<img onmouseover="preview.src=sb2.src" name="sb2" src="pictures/sb2.png" alt="sb2">
+					<img onmouseover="preview.src=sb3.src" name="sb3"src="pictures/sb3.png" alt="sb3">
+					<img onmouseover="preview.src=sb4.src" name="sb4"src="pictures/sb4.png" alt="sb4">	
+				</div>
+				<div class="preview">
+					<img name="preview"src="pictures/sb4.png" alt="sb4">
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="bottom-site">
+		<a href="https://www.facebook.com/Starbucks/" class="footer-link">Facebook</a>
+		<a href="https://www.instagram.com/starbucks/?hl=en" class="footer-link">Instagram</a>
+		<a href="https://www.starbucks.in/dashboard" class="footer-link">Starbucks</a>
+		<p class="copyright">&copy;2023 Priyanka@Starbucks</p>
+	    </div>
+	</footer>
+
+</body>
+</html>

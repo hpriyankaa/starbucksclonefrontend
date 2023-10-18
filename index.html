@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Front End Design</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Front end web developer" content="complete web design">
+	<meta name="keywords" content="CSS,HTML,Front End">
+	<meta name="author" content="Priyanka">
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+	<link rel="stylesheet" type="text/css" href="popup.css">
+	<link rel="icon" href="pictures/logs.png">
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@700&family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="frontend.js"></script>
+</head>
+<body>
+	<div style="background-image: url(photos/cofffee.png);" class="coffee">
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="pics/starbuckss.png" alt="logo">
+				<input type="text" name="search" class="mysearchbar" size="20" placeholder="search">
+				<input type="submit" value="search" size="2.5" class="mysearchbutton">
+				<ul class="mymenu">
+					<li class="drop">
+						<a href="javascript:void(0)" class="active">Menu</a>
+						<div class="dropcontent">
+							<a href="index.html">Home</a>
+							<a href="blog.html">blog</a>
+							<a href="creator.html">Creator</a>
+							<a href="contact.html">contact</a>
+							<a href="login.html">login</a>
+							<a href="media.html">media</a>
+							<a href="about.html">about</a>
+							<a href="signup.html">signup</a>
+						</div>
+					</li>
+					<li><a href="blog.html">blog</a></li>
+					<li><a href="creator.html">Creator</a></li>
+					<li><a href="contact.html">contact</a></li>
+					<li><a href="login.html">login</a></li>
+					<li><a href="media.html">media</a></li>
+					<li><a href="signup.html">signup</a></li>
+					<li><a href="about.html">about</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="site-container clear">
+		<div class="top-site">
+			<h1>STARBUCKS</h1>
+			<h2>"It's not just coffee,it's starbucks</h2>
+		</div>
+		<div class="middle-site">
+			<div class="first-middle-site">
+				<img src="pictures/stargif.gif" alt="starbucks-gif" class="starb"> 
+				<h3>DELICIOUS COFFEE</h3>
+				<br>
+				<p>Lorem ipsum dolor sit amet, consequatectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<hr>
+			<div class="second-middle-site">
+		        <div class="frap">
+		        	<img src="pictures/frapp.png" class="frapp" alt="frapimg">
+		        	<h3>FRAPPUCCINO</h3>
+		        	<p>A Frappuccino is a blended coffee drink that is typically made with coffee or espresso, milk, and ice. It is blended together in a blender, which gives it a smooth and creamy texture. Additional ingredients such as syrups and whipped cream can also be added to customize the flavor</p>
+		        </div>
+		        <div class="frap">
+		        	<img src="pictures/foodd.png" class="foodd" alt="foodimg" height="150px" width="300px">
+		            <h3>OUR FOOD SERVICES</h3>
+		        	<p>Whether it's our Fresh Carrot Muffin to start off your day or the all-time favorite Rustica Chicken Cranberry Sandwich for lunch, there is always something special to accompany your favorite Starbucks coffee.</p>
+		        </div>
+			</div>
+			<hr>
+			<div class="third-middle-site">
+				<div>
+					<h3>Need our delicious treats?</h3>
+					<h4>Hit the contact box and message us</h4>
+					<p class="contact"> Thanks for contacting! We will get back to you soon to make your experience better and help you as,customer's satisfaction is our top most priority!</p>
+					<!--<a class="myButton" href="mailto:hpriyanka2407@gmail.com">CONTACT US</a>-->
+				</div>
+				
+			</div>	
+		</div>
+		<!-- laveraing power of javascript-->
+		<div class="MyPop">
+			<div id="MessageBox">
+				<!-- starting box popup-->
+				<div id="popupContact">
+					<!--contact form-->
+					<form action="#" id="form" method="POST" name="form">
+						<img src="pictures/wrongggg.png" id="close" onclick="close_form()">
+						<h2 class="us">Contact Us</h2>
+						<input type="text" class="name" id="name" name="name" placeholder="Name">
+						<input type="email" class="email" id="email" name="email" placeholder="Email">
+						<textarea id="msg" name="message" placeholder="Message"></textarea>
+						<a href="javascript:input_fields()" id="submit">Send message</a>
+					</form>
+				</div>
+				<!-- end of pop up form-->
+			</div>
+			<div class="contu">
+				<a class="contu" id="popup" onclick="show_form()">CONTACT US</a>
+			</div>
+			<!--end of pop up msg-->
+		</div>
+		<div class="bottom-site">
+			<a href="https://www.facebook.com/Starbucks/" class="footer-link">Facebook</a>
+			<a href="https://www.instagram.com/starbucks/?hl=en" class="footer-link">Instagram</a>
+			<a href="https://www.starbucks.in/dashboard" class="footer-link">Starbucks</a>
+			<p class="copyright">&copy;2023 Priyanka@Starbucks</p>
+		</div>
+		
+	</div>
+	<footer>
+		
+	</footer>
+
+</body>
+</html>

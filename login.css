@@ -1,0 +1,45 @@
+footer{
+	padding: 500px 0 .5px;
+}
+.login-header{
+	background-color: #0f401e;
+	padding: 50px 20px;
+	margin-bottom: 30px;
+}
+#loginform input[type=email],
+#loginform input[type=password]{
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	border: 1px solid #0f401e;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+.welcome{
+	background-color: #f2f2f2;
+	width: 50%;
+	margin: 30px auto;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+.welcome h2{
+	color: #0f401e;
+}
+#loginform input[type=submit]{
+	width: 30%;
+	background-color: #0f401e;
+	color: white;
+	padding: 14px 20px;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+}
+#loginform input[type=submit]:hover{
+	background-color: grey;
+}
+body{
+	background-color: #0f401e;
+}
+#loginform a{
+	color: black;
+}

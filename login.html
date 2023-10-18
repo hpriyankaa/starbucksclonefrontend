@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Front End Design</title>
+	<meta charset="utf-8">
+	<meta name="Front end web developer" content="complete web design">
+	<meta name="keywords" content="CSS,HTML,Front End">
+	<meta name="author" content="Priyanka">
+	<link rel="icon" href="pictures/logs.png">
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@700&family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="pics/starbuckss.png" alt="logo">
+				<input type="text" name="search" class="mysearchbar" size="20" placeholder="search">
+				<input type="submit" value="search" size="2.5" class="mysearchbutton">
+				<ul class="mymenu">
+					<li class="drop">
+						<a href="javascript:void(0)">Menu</a>
+						<div class="dropcontent">
+							<a href="blog.html">blog</a>
+							<a href="contact.html">contact</a>
+							<a href="login.html">login</a>
+							<a href="media.html">media</a>
+							<a href="about.html">about</a>
+							<a href="signup.html">signup</a>
+						</div>
+					</li>
+				    <li><a href="blog.html">blog</a></li>
+					<li><a href="creator.html">Creator</li>
+					<li><a href="contact.html">contact</a></li>
+					<li><a href="login.html" class="active">login</a></li>
+					<li><a href="media.html">media</a></li>
+					<li><a href="signup.html">signup</a></li>
+					<li><a href="about.html">about</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="site-container">
+		<div class="login-header">
+			<h1>Login</h1>
+		</div>
+		<div class="welcome">
+			<form id="loginform" action="media.html" method="POST">
+				<h2>Sign in</h2>
+				<div class="row">
+					<p>
+					<label for="email">Your Email</label>
+					<input id="loginmail" type="email" name="email" placeholder="example@gmail.com" required="required">
+				    </p>
+				    <p>
+					<label for="password">Enter Password</label>
+					<input id="loginpass" type="password" name="password" placeholder="*******"required="required">
+					</p>
+					<p class="keeplogin">
+						<input type="checkbox" name="keep" id="keep" value="keep">
+						<label for="keep">Keep me logged in!</label>
+					</p>
+					<p class="forgotpassword">
+						<a href="#forgotpassword">Forgot Password</a>
+					</p>
+					<input type="submit" value="Login">
+					<p class="join">
+						<label for="new-member">Not a part of our family yet?</label>
+						<a href="signup.html" class="link">Register</a>
+					</p>
+					
+				</div>
+				
+			</form>
+			
+		</div>
+		
+	</div>
+		<footer>
+		<div class="bottom-site">
+			<a href="https://www.facebook.com/Starbucks/" class="footer-link">Facebook</a>
+			<a href="https://www.instagram.com/starbucks/?hl=en" class="footer-link">Instagram</a>
+			<a href="https://www.starbucks.in/dashboard" class="footer-link">Starbucks</a>
+			<p class="copyright">&copy;2023 Priyanka@Starbucks</p>
+		</div>
+	</footer>
+
+</body>
+</html>

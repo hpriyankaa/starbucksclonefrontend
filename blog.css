@@ -1,0 +1,183 @@
+img{
+	max-width: 100%;
+	 height: auto;
+}
+table{
+	width: 100%;
+	margin-top: 50px;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+footer{
+	text-align: center;
+	padding: 2400px 0 0px;
+}
+.blog-header{
+	background-color: #0f401e;
+	margin-bottom: 50px 20px;
+}
+/*blog content*/
+.blog-content{
+	max-width: 940px;
+	margin: auto auto;
+}
+/*blog-main-area*/
+.blog-main-area{
+	width: 60%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+	padding-top: 20px;
+}
+/*image banner and description*/
+.image-banner{
+	position: relative;
+	margin: 50px 0px;
+}
+.image-banner img{
+	display: block;
+}
+.banner-description{
+	position: absolute;
+	background-color: #000000;
+    padding: 0px 5px;
+    color: #ffff;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+}
+.block-box{
+	background-color: lightgrey;
+	border: 5px solid grey;
+	padding: 20px 20px;
+	margin: 50px 0px;
+}
+.ssp{
+	background-color: grey;
+	padding: 150px 0px;
+	margin: 50px 0px;
+	background-image: url(pictures/falll.png);
+	background-position: center;
+	background-size: cover;
+    background-repeat:no-repeat;
+    color: white;
+}
+/*table data*/
+.menu{
+	width: 60%;
+}
+.qty,
+.price{
+	width: 20%;
+}
+table th{
+	text-align: left;
+	background-color: #0f401e;
+	color: white;
+}
+table.myitems tr :nth-child(2),
+table.myitems tr :nth-child(3){
+	text-align: center;
+}
+table.myitems tr :nth-child(1){
+	text-align: left;
+}
+table th,
+table td{
+	border: 2px solid #0f401e;
+	padding: 5px;
+}
+table tbody tr:nth-child(even) td{
+	background-color: lightgrey;
+}
+/*side-bar newsletter*/
+.newsletter h1{
+	color: #0f401e;
+}
+input[type="email"],
+input[type="password"],
+select{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+	border: 2px solid #0f401e;
+	outline: none;
+	box-sizing: border-box;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus{
+	border: 2px solid grey;
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .15);
+}
+
+.blog-sidebar input[type="submit"]{
+	width: 100%;
+	background-color: #0f401e;
+	color: white;
+	padding: 10px 0px;
+	border-radius: 5px;
+	font-size: 100%;
+	outline: none;
+	margin-bottom: 10px;
+}
+.blog-sidebar input[type="submit"]:focus,
+.blog-sidebar input[type="submit"]:hover{
+	border: 1px solid #0f401e;
+	background-color: green;
+}
+
+
+
+
+
+.checkbox-text{
+	color: black;
+}
+.pswd{
+	color: black;
+}
+.emil{
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+/*blog side bar*/
+.blog-sidebar{
+	width: 40%;
+	float: left;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	background-image: linear-gradient(to bottom,#0f401e,#ffffff);
+	color: white;
+}
+.blog-sidebar img{
+	height: 200px;
+	width: 400px;
+}
+
+
+
+
+
+
+
+/*clear floats*/
+.clear:before,
+.clear:after {
+  content: "";
+  display: table;
+}
+.clear:after{
+  clear: both;
+}
+.clear{
+  zoom:1;
+}

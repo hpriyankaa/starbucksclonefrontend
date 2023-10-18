@@ -1,0 +1,97 @@
+footer{
+  padding: 1000px 0px .5px;
+}
+
+
+
+
+
+.pinks{
+	margin: 30px auto;
+    float: left;
+    padding-left: 400px;
+    margin-top: 60px;
+}
+body {
+	background-color: #0f401e;
+}
+.headeer h1{
+	font-weight: bold;
+}
+
+/*.heads h2{
+	margin-bottom: 100px;
+	top: 200px;
+	padding-right: 500px;
+}
+.heads h1{
+	padding-right: 400px;
+	bottom: 30px;
+}*/
+.heads{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This centers the headers horizontally */
+  justify-content: flex-end; /* This moves the H2 header to the bottom */
+  height: 200px;
+  padding-right: 400px;
+  margin-top: 70px;
+}
+h1 h2{
+	margin: 0;
+}
+.heads h2{
+	padding-right: 100px;
+}
+.para{
+	color: white;
+	width: 50%;
+	margin: auto;
+}
+.und{
+	color: white;
+}
+.middle-site-container{
+	color: white;
+}
+.btn {
+  background-color:#0f401e;
+  -webkit-border-radius:28px;
+  -moz-border-radius:28px;
+  border-radius:28px;
+  border:3px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:22px;
+  font-style:italic;
+  padding:12px 13px;
+  text-decoration:none;
+}
+.btn:hover {
+  background-color:#3d9c3d;
+}
+.btn:active {
+  position:relative;
+  top:1px;
+}
+.btn{
+  margin: 10px;
+  position: relative;
+  margin-left: 580px;
+}
+.linkd{
+  margin-left: 580px;
+  position: relative;
+  top: -30px;
+}
+.gmail{
+  margin-left: 20px;
+  position: relative;
+  top: -30px;
+}
+              
+
+
+

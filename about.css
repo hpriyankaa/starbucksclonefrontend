@@ -1,0 +1,20 @@
+footer{
+	padding: 1000px 0 .5px;
+}
+.aboutme{
+	background-color: #0f401e;
+	padding: 50px 20px;
+}
+.profile{
+	margin:20px auto;
+}
+.para{
+	width: 50%;
+	margin: auto;
+}
+.rev h3{
+	color: #0f401e;
+}
+table{
+	margin: 0 auto;
+}

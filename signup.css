@@ -1,0 +1,56 @@
+.signup-header h1,h2{
+	color: #ffffff;
+}
+.regform h2{
+	color: #0f401e;
+	margin-top: 50px;
+
+}
+.regform a{
+	color: #0f401e;
+	font-size: 20px;
+
+}
+#reg a:hover{
+	color: brown;
+}
+footer{
+	padding: 500px 0px .5px;
+}
+.signup-header{
+		background-color: #0f401e;
+		padding: 50px 20px;
+		margin-bottom: 30px;
+
+}
+.regform{
+	background-color: #f2f2f2;
+	width: 50%;
+	margin: 30px auto;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+#reg input[type=email],
+#reg [type=text],
+#reg [type=date],
+#reg [type=password],
+#reg select{
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	border: 1px solid #0f401e;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+#reg input[type=submit]{
+	width: 30%;
+	background-color: #0f401e;
+	color: white;
+	padding: 14px 20px;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+}
+#reg input[type=submit]:hover{
+	background-color: grey;
+}
