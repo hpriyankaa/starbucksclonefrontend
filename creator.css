@@ -1,5 +1,11 @@
 footer{
-  padding: 1000px 0px .5px;
+  padding: 500px 0px .5px;
+}
+body{
+	background-image:linear-gradient(to bottom right, #0f401e, #008080);
+}
+p{
+	font-size: large;
 }
 
 
