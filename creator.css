@@ -1,13 +1,15 @@
 footer{
-  padding: 500px 0px .5px;
+  padding: 100px 0px .5px;
 }
 body{
 	background-image:linear-gradient(to bottom right, #0f401e, #008080);
 }
 .copy{
-	background-image:linear-gradient(#008080,#0f401e);
+	background-image: linear-gradient(#008080,#0f401e);
 	color: white;
-	text-align:center;
+	font-size: 15px;
+	padding: 25px 0;
+	text-align: center;
 }
 p{
 	font-size: large;
